@@ -4,7 +4,7 @@ Highly motivated and results-oriented Electrical & Electronics Engineering stude
 
 ### Education
 
-- PES University, Bengaluru - Expected July 2026
+- PES University, Bengaluru - Expected May 2027
   + Bachelor of Technology (B.Tech) in Electrical & Electronics Engineering
 
 
