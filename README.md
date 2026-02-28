@@ -64,4 +64,4 @@ My experience ranges from building full-stack IoT data pipelines (Python, Modbus
 ## 🎓 Education
 
 ### PES University, Bengaluru
-* **Bachelor of Technology (B.Tech) in Electrical & Electronics Engineering** (Expected May 2027)
+* **Bachelor of Technology (B.Tech) in Electrical & Electronics Engineering** (Expected May 2028)
