@@ -5,7 +5,7 @@
 
 Highly motivated Electrical & Electronics Engineering student with a passion for building end-to-end solutions that bridge the gap between physical hardware and cloud-based data.
 
-My experience ranges from building full-stack IoT data pipelines (Python, Modbus, MQTT, Firebase) to performing in-depth data analysis and visualization (SQL, Tableau, Pandas). I'm proficient in deploying and managing resilient backend services on Linux servers and am eager to apply my skills to solve complex engineering problems.
+My experience spans embedded firmware and full-stack IoT systems, from developing Embedded C firmware and working with Zephyr RTOS, Nordic hardware, and I²C drivers to building Python-based data pipelines using Modbus, MQTT, and Firebase. I also have experience with data analysis and visualization. I’m interested in building reliable systems that connect hardware, firmware, and data.
 
 ---
 
@@ -13,15 +13,29 @@ My experience ranges from building full-stack IoT data pipelines (Python, Modbus
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages & Frameworks** | Python (Flask, Pandas, Streamlit), SQL, Embedded C, HTML/JS |
-| **Platforms & Databases** | Linux, Firebase (Firestore), SQLite, MQTT |
-| **DevOps & Tools** | `systemd`, Gunicorn, Git, Tableau, Microsoft Office |
-| **Hardware & Protocols** | Modbus RTU, ESP32, STM32, TI C2000 Microcontrollers, ePWM, ADC |
-| **Soft Skills** | Problem-Solving, Communication, Teamwork, Time Management |
+| **Languages & Frameworks** | Python (Flask, Pandas, Streamlit), SQL, Embedded C |
+| **Systems & Tools** | Linux, Git, systemd, SQLite, MATLAB, Tableau |
+| **Firmware & RTOS** | Zephyr RTOS, nRF Connect SDK, DeviceTree, Kconfig |
+| **Hardware & Protocols** | Nordic Semiconductor, nRF52, TI C2000, STM32, MSP430, I²C, SPI, BLE|
+| **IoT & Backend** | MQTT, Modbus RTU, Flask, Streamlit, Firebase |
 
 ---
 
 ## 🚀 Projects
+
+### 1. nPM1300 Power Management Driver
+
+* Embedded C · Zephyr RTOS · I²C · DeviceTree
+
+A standalone exploration of low-level PMIC driver development using Zephyr.
+
+* Built an I²C-based driver suite for register-level interaction with the power management IC.
+* Implemented functionality for battery charging, BUCK/LDO regulation, and ADC-based voltage/temperature monitoring.
+* Integrated the driver with Zephyr using DeviceTree and Kconfig.
+* Used Zephyr threads, mutexes, and semaphores to manage shared PMIC state across concurrent tasks.
+* Debugged register-level behaviour against the manufacturer’s product specification and validated conversion and control logic.
+
+> Note: This project is a cleaned-up/public version of work explored during my embedded systems internship. Proprietary company code and information are not included.
 
 ### 1. Campus Energy Monitoring System (Full-Stack IoT Pipeline)
 * **Engineered** an IoT data logger (Python, Modbus RTU) to capture **5 real-time electrical parameters** (e.g., Power, Voltage, Current) from a campus smart meter at a **5-second interval**.
@@ -44,6 +58,14 @@ My experience ranges from building full-stack IoT data pipelines (Python, Modbus
 ---
 
 ## 💼 Experience
+
+### Sensio Enterprises
+> Embedded Intern (Jun 2026 - Jul 2026)
+
+* Developed Embedded C firmware using the Zephyr RTOS and nRF Connect SDK ecosystem for wearable hardware.
+* Developed a custom I²C driver stack for a Nordic power management IC, including battery charging, voltage regulation, and ADC-based monitoring.
+* Worked with Zephyr DeviceTree, Kconfig, multithreading, and kernel synchronisation primitives for firmware integration.
+* Evaluated sensor hardware and explored IoT/wearable product concepts for potential integration into future products.
 
 ### Gas Turbine Research Establishment (DRDO)
 > Student Trainee (Jun 2025 - Jul 2025)
